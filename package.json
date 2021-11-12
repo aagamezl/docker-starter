@@ -1,0 +1,22 @@
+{
+  "name": "docker-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www/index.js",
+  "scripts": {
+    "pm2": "pm2",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run pm2 start bin/www/index.js",
+    "stop": "npm run pm2 stop"
+  },
+  "keywords": [],
+  "author": "Álvaro José Agámez Licha",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "pm2": "^5.1.2",
+    "winston": "^3.3.3"
+  }
+}
